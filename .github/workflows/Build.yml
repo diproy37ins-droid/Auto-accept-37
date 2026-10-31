@@ -11,9 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Unzip project
-        run: unzip -q AutoAccept_complete_project.zip
-
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
